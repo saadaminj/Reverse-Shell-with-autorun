@@ -1,0 +1,9 @@
+[autorun]
+open=client.exe
+ShellExecute=client.exe
+UseAutoPlay=1
+
+[autorun.alpha] 
+open=client.exe
+ShellExecute=client.exe
+UseAutoPlay=1
